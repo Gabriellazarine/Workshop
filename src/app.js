@@ -1,5 +1,4 @@
 import express from 'express';
-import 'dotenv/config'
 import connectDB from './config/db.js';
 import workshopRouter from './routers/workshopRouter.js'
 import vehicleRouter from './routers/vehicleRouter.js'
